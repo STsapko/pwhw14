@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "*"
+fastapi = "*"
+faker = "*"
+uvicorn = "*"
+asyncpg = "*"
+pydantic = "==1.10.10"
+passlib = "*"
+libgravatar = "*"
+alembic = "*"
+python-jose = "*"
+python-multipart = "*"
+bcrypt = "*"
+fastapi-mail = "==1.3.1"
+cloudinary = "*"
+fastapi-limiter = "*"
+redis = "*"
+httpx = "*"
+aiosqlite = "*"
+
+[dev-packages]
+sphinx = "*"
+pytest = "*"
+pytest-asyncio = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.4"
+
+[tool]
+pytest = {ini_options={pythonpath = ["."]}}
